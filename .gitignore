@@ -34,4 +34,6 @@ node_modules
 bin
 .vagrant
 
+# Dev Environment
 .idea
+.DS_Store

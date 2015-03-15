@@ -34,7 +34,15 @@
     "php": ">=5.4",
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "1.0.9",
-    "johnpbloch/wordpress": "4.1.1"
+    "johnpbloch/wordpress": "4.1.1",
+    "wpackagist-plugin/crayon-syntax-highlighter": "dev-trunk",
+    "wpackagist-plugin/custom-sidebars": "dev-trunk",
+    "wpackagist-plugin/disqus-comment-system": "dev-trunk",
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "dev-trunk",
+    "wpackagist-plugin/jetpack": "dev-trunk",
+    "wpackagist-plugin/wordpress-seo": "dev-trunk",
+    "wpackagist-plugin/wp-pagenavi": "dev-trunk",
+    "wpackagist-plugin/wp-postviews": "dev-trunk"
   },
   "extra": {
     "installer-paths": {
