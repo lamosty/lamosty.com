@@ -8,7 +8,14 @@ set :stage, :production
 
 # Extended Server Syntax
 # ======================
-server 'example.com', user: 'deploy', roles: %w{web app db}
+server '83.167.228.24', user: 'webvision', roles: %w{web app db}
+
+set :deploy_to, -> { "/home/webvision/projects/#{fetch(:application)}" }
+
+set :ssh_options, {:forward_agent => true}
+
+set :wpcli_remote_url, "https://lamosty.com"
+set :wpcli_local_url, "http://localhost:8080/lamosty.com"
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fb2b15d4638d8f28f6dd4fa0da53dc89",
+    "hash": "b9e0647f0eed0822ea2df372ca14cab8",
     "packages": [
         {
             "name": "composer/installers",
@@ -171,40 +171,6 @@
             ],
             "description": "A custom installer to handle deploying WordPress with composer",
             "time": "2013-09-09 15:04:54"
-        },
-        {
-            "name": "lamosty/wp-plugin-stack",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lamosty/wp-plugin-stack.git",
-                "reference": "a6e9f411b245fd79a28065017a99b658296e4160"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lamosty/wp-plugin-stack/zipball/a6e9f411b245fd79a28065017a99b658296e4160",
-                "reference": "a6e9f411b245fd79a28065017a99b658296e4160",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Lamosty\\WP_Plugin_Stack\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPLv2"
-            ],
-            "authors": [
-                {
-                    "name": "Rastislav Lamos",
-                    "email": "lamos.rasto@gmail.com",
-                    "homepage": "https://lamosty.com"
-                }
-            ],
-            "description": "WP Plugin Stack is a set of libraries and helpers to aid in plugin development. Work in progress.",
-            "time": "2015-02-06 09:06:43"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -437,8 +403,7 @@
         "wpackagist-plugin/jetpack": 20,
         "wpackagist-plugin/wordpress-seo": 20,
         "wpackagist-plugin/wp-pagenavi": 20,
-        "wpackagist-plugin/wp-postviews": 20,
-        "lamosty/wp-plugin-stack": 20
+        "wpackagist-plugin/wp-postviews": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -1,5 +1,6 @@
 # Load DSL and Setup Up Stages
 require 'capistrano/setup'
+require 'capistrano/wpcli'
 
 # Includes default deployment tasks
 require 'capistrano/deploy'

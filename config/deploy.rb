@@ -1,5 +1,10 @@
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'lamosty.com'
+set :repo_url, 'git@github.com:lamosty/lamosty.com.git'
+
+set :stages, %w(production staging)
+set :default_stage, "staging"
+
+set :use_sudo, false
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
