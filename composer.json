@@ -1,55 +1,58 @@
 {
-  "name": "lamosty/lamosty.com",
-  "type": "project",
-  "license": "GPL2",
-  "description": "Lamosty.com blog source code",
-  "homepage": "https://lamosty.com/",
-  "authors": [
-    {
-      "name": "Rastislav Lamos",
-      "email": "lamos.rasto@gmail.com",
-      "homepage": "https://github.com/lamosty"
-    }
-  ],
-  "keywords": [
-      "blog", "bedrock", "make"
-  ],
-  "config": {
-    "preferred-install": "dist",
-    "generate-salts": true
-  },
-  "autoload": {
-    "psr-0": {"Roots\\Bedrock\\Installer": "scripts"}
-  },
-  "scripts": {
-    "post-root-package-install": ["Roots\\Bedrock\\Installer::addSalts"]
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "http://wpackagist.org"
-    }
-  ],
-  "require": {
-    "php": ">=5.4",
-    "composer/installers": "v1.0.12",
-    "vlucas/phpdotenv": "1.0.9",
-    "johnpbloch/wordpress": "4.1.1",
-    "wpackagist-plugin/crayon-syntax-highlighter": "dev-trunk",
-    "wpackagist-plugin/custom-sidebars": "dev-trunk",
-    "wpackagist-plugin/disqus-comment-system": "dev-trunk",
-    "wpackagist-plugin/google-analytics-dashboard-for-wp": "dev-trunk",
-    "wpackagist-plugin/jetpack": "dev-trunk",
-    "wpackagist-plugin/wordpress-seo": "dev-trunk",
-    "wpackagist-plugin/wp-pagenavi": "dev-trunk",
-    "wpackagist-plugin/wp-postviews": "dev-trunk"
-  },
-  "extra": {
-    "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    "name": "lamosty/lamosty.com",
+    "type": "project",
+    "license": "GPL2",
+    "description": "Lamosty.com blog source code",
+    "homepage": "https://lamosty.com/",
+    "authors": [
+        {
+            "name": "Rastislav Lamos",
+            "email": "lamos.rasto@gmail.com",
+            "homepage": "https://github.com/lamosty"
+        }
+    ],
+    "keywords": [
+        "blog",
+        "bedrock",
+        "make"
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "generate-salts": true
     },
-    "wordpress-install-dir": "web/wp"
-  }
+    "autoload": {
+        "psr-0": {"Roots\\Bedrock\\Installer": "scripts"}
+    },
+    "scripts": {
+        "post-root-package-install": ["Roots\\Bedrock\\Installer::addSalts"]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "1.0.21",
+        "vlucas/phpdotenv": "1.0.9",
+        "johnpbloch/wordpress": "4.1.1",
+        "lamosty/blog-helper": "2.0.0",
+        "wpackagist-plugin/crayon-syntax-highlighter": "dev-trunk",
+        "wpackagist-plugin/custom-sidebars": "dev-trunk",
+        "wpackagist-plugin/disqus-comment-system": "dev-trunk",
+        "wpackagist-plugin/google-analytics-dashboard-for-wp": "dev-trunk",
+        "wpackagist-plugin/jetpack": "dev-trunk",
+        "wpackagist-plugin/wordpress-seo": "dev-trunk",
+        "wpackagist-plugin/wp-pagenavi": "dev-trunk",
+        "wpackagist-plugin/wp-postviews": "dev-trunk"
+    },
+    "extra": {
+        "installer-paths": {
+            "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+            "web/app/themes/{$name}/": ["type:wordpress-theme"]
+        },
+        "wordpress-install-dir": "web/wp"
+    }
 }

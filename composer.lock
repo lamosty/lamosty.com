@@ -4,28 +4,29 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b9e0647f0eed0822ea2df372ca14cab8",
+    "hash": "bd131a852c3410c6f8ca2958a16cd732",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.12",
+            "version": "v1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa"
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/4127333b03e8b4c08d081958548aae5419d1a2fa",
-                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
                 "shasum": ""
             },
             "replace": {
+                "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.1.*"
             },
             "type": "composer-installer",
             "extra": {
@@ -47,27 +48,34 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
                 "Craft",
+                "Dolibarr",
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "SMF",
+                "Thelia",
                 "WolfCMS",
                 "agl",
+                "aimeos",
                 "annotatecms",
+                "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
                 "concrete5",
                 "croogo",
+                "dokuwiki",
                 "drupal",
                 "elgg",
                 "fuelphp",
+                "grav",
                 "installer",
                 "joomla",
                 "kohana",
@@ -77,9 +85,12 @@
                 "mako",
                 "mediawiki",
                 "modulework",
+                "moodle",
                 "phpbb",
                 "piwik",
                 "ppi",
+                "puppet",
+                "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
@@ -88,7 +99,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-02-24 04:21:34"
+            "time": "2015-02-18 17:17:01"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -171,6 +182,73 @@
             ],
             "description": "A custom installer to handle deploying WordPress with composer",
             "time": "2013-09-09 15:04:54"
+        },
+        {
+            "name": "lamosty/blog-helper",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lamosty/lamosty-blog-helper.git",
+                "reference": "a98ad96d81cd2f4c1184061887e8d2479a855b3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lamosty/lamosty-blog-helper/zipball/a98ad96d81cd2f4c1184061887e8d2479a855b3c",
+                "reference": "a98ad96d81cd2f4c1184061887e8d2479a855b3c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.0.21",
+                "lamosty/wp-plugin-stack": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Lamosty\\Blog_Helper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rastislav Lamos",
+                    "email": "lamos.rasto@gmail.com"
+                }
+            ],
+            "time": "2015-03-16 08:30:17"
+        },
+        {
+            "name": "lamosty/wp-plugin-stack",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lamosty/wp-plugin-stack.git",
+                "reference": "a6e9f411b245fd79a28065017a99b658296e4160"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lamosty/wp-plugin-stack/zipball/a6e9f411b245fd79a28065017a99b658296e4160",
+                "reference": "a6e9f411b245fd79a28065017a99b658296e4160",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lamosty\\WP_Plugin_Stack\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Rastislav Lamos",
+                    "email": "lamos.rasto@gmail.com",
+                    "homepage": "https://lamosty.com"
+                }
+            ],
+            "description": "WP Plugin Stack is a set of libraries and helpers to aid in plugin development. Work in progress.",
+            "time": "2015-02-06 09:06:43"
         },
         {
             "name": "vlucas/phpdotenv",
