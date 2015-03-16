@@ -38,3 +38,9 @@ bin
 .idea
 .DS_Store
 .bundle
+
+# Theme front-end packages and stuff
+dist
+bower_components
+node_modules
+npm-debug.log

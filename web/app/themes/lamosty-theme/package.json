@@ -1,0 +1,21 @@
+{
+  "name": "lamosty.com-theme",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamosty/lamosty.com.git"
+  },
+  "author": "Rastislav Lamos",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/lamosty/lamosty.com/issues"
+  },
+  "homepage": "https://github.com/lamosty/lamosty.com",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-sass": "^1.3.3",
+    "gulp-watch": "^4.2.0"
+  }
+}
