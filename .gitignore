@@ -9,6 +9,7 @@ web/app/uploads/*
 !web/app/mu-plugins/disallow-indexing.php
 !web/app/mu-plugins/register-theme-directory.php
 !web/app/mu-plugins/bedrock-autoloader.php
+!web/app/mu-plugins/show-admin-bar.php
 
 # WordPress
 web/wp
