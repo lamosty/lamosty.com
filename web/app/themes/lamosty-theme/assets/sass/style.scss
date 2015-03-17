@@ -20,6 +20,11 @@
 
     }
   }
+}
 
+.widget.widget_nav_menu {
+  .current-menu-item a {
+    color: $text;
+  }
 }
 
