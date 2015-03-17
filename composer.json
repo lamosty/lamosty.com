@@ -20,7 +20,10 @@
         "generate-salts": true
     },
     "autoload": {
-        "psr-0": {"Roots\\Bedrock\\Installer": "scripts"}
+        "psr-0": {"Roots\\Bedrock\\Installer": "scripts"},
+        "psr-4": {
+            "Lamosty\\Lamosty_Dot_Com\\": "web/app/themes/lamosty-theme/src/"
+        }
     },
     "scripts": {
         "post-root-package-install": ["Roots\\Bedrock\\Installer::addSalts"]
