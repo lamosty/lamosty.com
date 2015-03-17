@@ -18,5 +18,9 @@ $container
 $lamosty_dot_com = $container->lookup('lamosty_dot_com');
 
 $lamosty_dot_com->actions_init();
+$lamosty_dot_com->filters_init();
+
+
+
 
 

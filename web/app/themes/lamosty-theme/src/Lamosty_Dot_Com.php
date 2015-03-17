@@ -18,6 +18,10 @@ class Lamosty_Dot_Com {
 		$this->config_init->actions_init();
 	}
 
+	public function filters_init() {
+		$this->design->filters_init();
+	}
+
 
 }
 
