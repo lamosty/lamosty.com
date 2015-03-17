@@ -3,17 +3,21 @@
  * @ Lamosty.com 2015
  */
 
+
+
 class Lamosty_Dot_Com {
 	const TEXT_DOMAIN = 'lamosty.com-theme';
 
-	public static function init() {
-		static $instance = null;
-
-		if ( ! $instance ) {
-			$instance = new Lamosty_Dot_Com();
-		}
-
-		return $instance;
+	public function needs() {
+		return array(
+			'design', 'config_init'
+		);
 	}
 
+	public function actions_init() {
+		$this->config_init->actions_init();
+	}
+
+
 }
+
