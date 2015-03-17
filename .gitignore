@@ -11,6 +11,9 @@ web/app/uploads/*
 !web/app/mu-plugins/bedrock-autoloader.php
 !web/app/mu-plugins/show-admin-bar.php
 
+# Dev Plugins
+web/app/db.php
+
 # WordPress
 web/wp
 web/.htaccess
