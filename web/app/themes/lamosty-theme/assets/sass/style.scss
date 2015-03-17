@@ -13,3 +13,13 @@
  Text Domain:  lamosty.com-theme
 */
 
+.site-navigation {
+  @include for(medium-screens) {
+    ul.menu ul a {
+      max-width: none;
+
+    }
+  }
+
+}
+
