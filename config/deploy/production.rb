@@ -15,7 +15,7 @@ set :deploy_to, -> { "/home/webvision/projects/#{fetch(:application)}" }
 set :ssh_options, {:forward_agent => true}
 
 set :wpcli_remote_url, "https://lamosty.com"
-set :wpcli_local_url, "http://localhost:8080/lamosty.com"
+set :wpcli_local_url, "http://dev.lamosty.com"
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options

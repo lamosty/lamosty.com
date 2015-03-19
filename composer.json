@@ -50,6 +50,8 @@
         "wpackagist-plugin/wp-pagenavi": "dev-trunk",
         "wpackagist-plugin/wp-postviews": "dev-trunk"
     },
+    "require-dev": {
+    },
     "extra": {
         "installer-paths": {
             "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
