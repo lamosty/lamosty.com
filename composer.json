@@ -51,6 +51,11 @@
         "wpackagist-plugin/wp-postviews": "dev-trunk"
     },
     "require-dev": {
+        "wpackagist-plugin/query-monitor": "dev-trunk",
+        "wpackagist-plugin/debug-bar-console": "dev-trunk",
+        "wpackagist-plugin/rewrite-rules-inspector": "dev-trunk",
+        "wpackagist-plugin/p3-profiler": "dev-trunk"
+
     },
     "extra": {
         "installer-paths": {
