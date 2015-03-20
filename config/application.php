@@ -62,3 +62,17 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
   define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+/**
+ * Plugins which get force-enabled in development environment.
+ * Include them in your composer.json "require-dev" so they get installed only on dev machine.
+ *
+ * Specify relative path to plugin's main PHP file.
+ */
+
+$BEDROCK_DEV_PLUGINS = array(
+	'query-monitor/query-monitor.php',
+	'debug-bar-console/debug-bar-console.php',
+	'p3-profiler/p3-profiler.php',
+	'rewrite-rules-inspector/rewrite-rules-inspector.php'
+);
