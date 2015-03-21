@@ -41,6 +41,7 @@
         "dsawardekar/encase-php": "~0.2.0",
         "johnpbloch/wordpress": "4.1.1",
         "lamosty/blog-helper": "2.0.0",
+        "lamosty/bedrock-plugin-control": "~0.1.1",
         "wpackagist-plugin/crayon-syntax-highlighter": "dev-trunk",
         "wpackagist-plugin/custom-sidebars": "dev-trunk",
         "wpackagist-plugin/disqus-comment-system": "dev-trunk",

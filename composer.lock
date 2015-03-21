@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0741781366c2c88eb9ba30bc529a9455",
+    "hash": "912bad1d76735b207bcc1b5f74ffa6db",
     "packages": [
         {
             "name": "composer/installers",
@@ -226,6 +226,33 @@
             ],
             "description": "A custom installer to handle deploying WordPress with composer",
             "time": "2013-09-09 15:04:54"
+        },
+        {
+            "name": "lamosty/bedrock-plugin-control",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lamosty/bedrock-plugin-control.git",
+                "reference": "a3e028c3ce0c628837a310ae2abc131d7652c3d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lamosty/bedrock-plugin-control/zipball/a3e028c3ce0c628837a310ae2abc131d7652c3d9",
+                "reference": "a3e028c3ce0c628837a310ae2abc131d7652c3d9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.12"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rastislav Lamos",
+                    "email": "lamos.rasto@gmail.com"
+                }
+            ],
+            "time": "2015-03-20 19:14:34"
         },
         {
             "name": "lamosty/blog-helper",
