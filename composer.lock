@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "912bad1d76735b207bcc1b5f74ffa6db",
+    "hash": "6eb00878ae149d1e4c1cb16aef3005f9",
     "packages": [
         {
             "name": "composer/installers",
@@ -229,16 +229,16 @@
         },
         {
             "name": "lamosty/bedrock-plugin-control",
-            "version": "0.1.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lamosty/bedrock-plugin-control.git",
-                "reference": "a3e028c3ce0c628837a310ae2abc131d7652c3d9"
+                "reference": "13163fcf367bf69f5d3889f5c50d3469436eae5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lamosty/bedrock-plugin-control/zipball/a3e028c3ce0c628837a310ae2abc131d7652c3d9",
-                "reference": "a3e028c3ce0c628837a310ae2abc131d7652c3d9",
+                "url": "https://api.github.com/repos/lamosty/bedrock-plugin-control/zipball/13163fcf367bf69f5d3889f5c50d3469436eae5a",
+                "reference": "13163fcf367bf69f5d3889f5c50d3469436eae5a",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +252,7 @@
                     "email": "lamos.rasto@gmail.com"
                 }
             ],
-            "time": "2015-03-20 19:14:34"
+            "time": "2015-04-03 16:07:50"
         },
         {
             "name": "lamosty/blog-helper",
@@ -374,15 +374,15 @@
         },
         {
             "name": "wpackagist-plugin/crayon-syntax-highlighter",
-            "version": "dev-trunk",
+            "version": "2.6.10",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/crayon-syntax-highlighter/",
-                "reference": "trunk"
+                "reference": "tags/2.6.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/crayon-syntax-highlighter.zip",
+                "url": "https://downloads.wordpress.org/plugin/crayon-syntax-highlighter.2.6.10.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -390,12 +390,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/crayon-syntax-highlighter/",
-            "time": "2014-12-21 11:58:52"
+            "homepage": "https://wordpress.org/plugins/crayon-syntax-highlighter/"
         },
         {
             "name": "wpackagist-plugin/custom-sidebars",
-            "version": "dev-trunk",
+            "version": "2.1.0.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/custom-sidebars/",
@@ -411,12 +410,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-sidebars/",
-            "time": "2015-01-22 00:20:38"
+            "homepage": "https://wordpress.org/plugins/custom-sidebars/"
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "dev-trunk",
+            "version": "2.84",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
@@ -432,20 +430,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/disqus-comment-system/",
-            "time": "2014-12-09 00:15:49"
+            "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "dev-trunk",
+            "version": "4.5.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "trunk"
+                "reference": "tags/4.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -453,20 +450,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/",
-            "time": "2015-02-24 16:56:37"
+            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "dev-trunk",
+            "version": "3.4.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "trunk"
+                "reference": "tags/3.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -474,20 +470,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/jetpack/",
-            "time": "2015-03-12 20:41:15"
+            "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "dev-trunk",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "trunk"
+                "reference": "tags/2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -495,20 +490,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-seo/",
-            "time": "2015-03-11 21:58:29"
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-pagenavi",
-            "version": "dev-trunk",
+            "version": "2.87",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-pagenavi/",
-                "reference": "trunk"
+                "reference": "tags/2.87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.87.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -516,20 +510,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-pagenavi/",
-            "time": "2014-12-18 03:30:44"
+            "homepage": "https://wordpress.org/plugins/wp-pagenavi/"
         },
         {
             "name": "wpackagist-plugin/wp-postviews",
-            "version": "dev-trunk",
+            "version": "1.69",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-postviews/",
-                "reference": "trunk"
+                "reference": "tags/1.69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-postviews.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-postviews.1.69.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -537,8 +530,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-postviews/",
-            "time": "2014-12-18 03:22:59"
+            "homepage": "https://wordpress.org/plugins/wp-postviews/"
         }
     ],
     "packages-dev": [
@@ -630,14 +622,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/crayon-syntax-highlighter": 20,
-        "wpackagist-plugin/custom-sidebars": 20,
-        "wpackagist-plugin/disqus-comment-system": 20,
-        "wpackagist-plugin/google-analytics-dashboard-for-wp": 20,
-        "wpackagist-plugin/jetpack": 20,
-        "wpackagist-plugin/wordpress-seo": 20,
-        "wpackagist-plugin/wp-pagenavi": 20,
-        "wpackagist-plugin/wp-postviews": 20,
         "wpackagist-plugin/query-monitor": 20,
         "wpackagist-plugin/debug-bar-console": 20,
         "wpackagist-plugin/rewrite-rules-inspector": 20,
