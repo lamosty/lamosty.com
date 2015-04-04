@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6eb00878ae149d1e4c1cb16aef3005f9",
+    "hash": "96c998399023e014f60119caaebdfbd7",
     "packages": [
         {
             "name": "composer/installers",
@@ -471,6 +471,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/posts-to-posts",
+            "version": "1.6.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/posts-to-posts/",
+                "reference": "tags/1.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/posts-to-posts/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",

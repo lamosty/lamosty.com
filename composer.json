@@ -49,7 +49,8 @@
         "wpackagist-plugin/jetpack": "~3.4.1",
         "wpackagist-plugin/wordpress-seo": "~2.0.1",
         "wpackagist-plugin/wp-pagenavi": "~2.87",
-        "wpackagist-plugin/wp-postviews": "~1.69"
+        "wpackagist-plugin/wp-postviews": "~1.69",
+        "wpackagist-plugin/posts-to-posts": "~1.6"
     },
     "require-dev": {
         "wpackagist-plugin/query-monitor": "dev-trunk",
