@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "96c998399023e014f60119caaebdfbd7",
+    "hash": "14503cfb0c8978a1b20b633294dd6944",
     "packages": [
         {
             "name": "composer/installers",
@@ -374,15 +374,15 @@
         },
         {
             "name": "wpackagist-plugin/crayon-syntax-highlighter",
-            "version": "2.6.10",
+            "version": "2.7.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/crayon-syntax-highlighter/",
-                "reference": "tags/2.6.10"
+                "reference": "tags/2.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/crayon-syntax-highlighter.2.6.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/crayon-syntax-highlighter.2.7.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -434,15 +434,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.5.1",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.5.1"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -471,26 +471,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
-        },
-        {
-            "name": "wpackagist-plugin/posts-to-posts",
-            "version": "1.6.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/posts-to-posts/",
-                "reference": "tags/1.6.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.6.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/posts-to-posts/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
@@ -555,58 +535,16 @@
     ],
     "packages-dev": [
         {
-            "name": "wpackagist-plugin/debug-bar-console",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/debug-bar-console/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar-console.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/debug-bar-console/",
-            "time": "2012-08-07 20:42:00"
-        },
-        {
-            "name": "wpackagist-plugin/p3-profiler",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/p3-profiler/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/p3-profiler.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/p3-profiler/",
-            "time": "2015-03-09 22:46:16"
-        },
-        {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "dev-trunk",
+            "version": "2.7.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "trunk"
+                "reference": "tags/2.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -614,39 +552,12 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/query-monitor/",
-            "time": "2015-03-14 21:07:32"
-        },
-        {
-            "name": "wpackagist-plugin/rewrite-rules-inspector",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/rewrite-rules-inspector/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rewrite-rules-inspector.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/rewrite-rules-inspector/",
-            "time": "2013-09-24 16:23:25"
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wpackagist-plugin/query-monitor": 20,
-        "wpackagist-plugin/debug-bar-console": 20,
-        "wpackagist-plugin/rewrite-rules-inspector": 20,
-        "wpackagist-plugin/p3-profiler": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -72,7 +72,8 @@ if (!defined('ABSPATH')) {
 
 $BEDROCK_DEV_PLUGINS = array(
 	'query-monitor/query-monitor.php',
-	'debug-bar-console/debug-bar-console.php',
-	'p3-profiler/p3-profiler.php',
-	'rewrite-rules-inspector/rewrite-rules-inspector.php'
+//	'p3-profiler/p3-profiler.php',
+//	'rewrite-rules-inspector/rewrite-rules-inspector.php'
 );
+
+define('JETPACK_IP_ADDRESS_OK', '127.0.0.1');
