@@ -39,7 +39,7 @@
         "composer/installers": "1.0.21",
         "vlucas/phpdotenv": "1.0.9",
         "dsawardekar/encase-php": "~0.2.0",
-        "johnpbloch/wordpress": "4.1.1",
+        "johnpbloch/wordpress": "^4.1.1",
         "lamosty/blog-helper": "2.0.0",
         "lamosty/bedrock-plugin-control": "~1.0.0",
         "wpackagist-plugin/crayon-syntax-highlighter": "^2.6.10",
