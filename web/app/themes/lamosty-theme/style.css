@@ -12,3 +12,4 @@
 */
 @media screen and (min-width:800px){.site-navigation ul.menu ul a{max-width:none}}
 .widget.widget_nav_menu .current-menu-item a{color:#171717}
+.loader-io-chart{width:600px;margin:0 auto}
