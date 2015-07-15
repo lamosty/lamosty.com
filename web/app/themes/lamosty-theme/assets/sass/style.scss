@@ -54,6 +54,18 @@
   background-color: #5cb85c;
 }
 
+// Mobile media query
+@media screen and (min-width: 800px) {
+  .site-navigation {
+    .menu {
+      .sub-menu li:first-of-type a  {
+        white-space: nowrap;
+      }
+    }
+  }
+
+}
+
 
 
 
