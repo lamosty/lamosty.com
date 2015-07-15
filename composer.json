@@ -43,13 +43,13 @@
         "lamosty/blog-helper": "2.0.0",
         "lamosty/bedrock-plugin-control": "~1.0.0",
         "wpackagist-plugin/crayon-syntax-highlighter": "^2.6.10",
-        "wpackagist-plugin/custom-sidebars": "^2.1.0.2",
         "wpackagist-plugin/disqus-comment-system": "^2.84",
         "wpackagist-plugin/google-analytics-dashboard-for-wp": "^4.5.1",
         "wpackagist-plugin/jetpack": "^3.4.1",
         "wpackagist-plugin/wordpress-seo": "^2.0.1",
         "wpackagist-plugin/wp-pagenavi": "^2.87",
-        "wpackagist-plugin/wp-postviews": "^1.69"
+        "wpackagist-plugin/wp-postviews": "^1.69",
+        "wpackagist-plugin/mailchimp-for-wp": "^2.3.7"
     },
     "require-dev": {
         "wpackagist-plugin/query-monitor": "^2.7"

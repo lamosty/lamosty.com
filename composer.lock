@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b49a962b56ff5bd7d74d413ad9808115",
+    "hash": "ca5714928bbc1616463adbfe51bd3a00",
     "packages": [
         {
             "name": "composer/installers",
@@ -396,26 +396,6 @@
             "homepage": "https://wordpress.org/plugins/crayon-syntax-highlighter/"
         },
         {
-            "name": "wpackagist-plugin/custom-sidebars",
-            "version": "2.1.0.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/custom-sidebars/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-sidebars.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-sidebars/"
-        },
-        {
             "name": "wpackagist-plugin/disqus-comment-system",
             "version": "2.84",
             "source": {
@@ -474,6 +454,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "2.3.7",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/2.3.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.3.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
