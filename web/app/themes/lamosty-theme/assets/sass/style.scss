@@ -67,5 +67,70 @@
 }
 
 
+$menu: #fff;
+$menu-hover: #000;
+
+.menu {
+  color: $menu;
+}
+
+.menu:hover {
+  color: $menu-hover;
+}
+
+@mixin border-radius($radius: 3px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.menu {
+  @include border-radius(10px);
+}
+
+.footer {
+  @include border-radius();
+}
+
+// level one
+.header {
+  // level two
+  color: red;
+  .menu {
+    // level three
+    color: blue;
+    li {
+      // level four
+      color: black;
+    }
+  }
+}
+
+.header {
+  color: red;
+}
+
+.header .menu {
+  color: blue;
+}
+
+.header .menu li {
+  color: black;
+}
+
+a.our-link {
+  @include link-color(black, blue, yellow);
+}
+
+a.our-link:hover {
+  color: blue;
+}
+
+a.our-link:visited {
+  color: yellow;
+}
+
+
+
 
 
