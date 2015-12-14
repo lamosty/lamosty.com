@@ -148,16 +148,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3.1",
+            "version": "4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
+                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
+                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-09-15 15:01:23"
+            "time": "2015-12-08 23:46:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -418,15 +418,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.8.3",
+            "version": "4.9.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.8.3"
+                "reference": "tags/4.9.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.8.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -438,15 +438,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.7.2",
+            "version": "3.8.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.7.2"
+                "reference": "tags/3.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.3.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.8.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -458,15 +458,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "2.3.17",
+            "version": "2.3.18",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/2.3.17"
+                "reference": "tags/2.3.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.3.17.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.3.18.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -498,15 +498,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-pagenavi",
-            "version": "2.88",
+            "version": "2.89.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-pagenavi/",
-                "reference": "tags/2.88"
+                "reference": "tags/2.89.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.88.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.89.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -518,15 +518,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-postviews",
-            "version": "1.71",
+            "version": "1.72",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-postviews/",
-                "reference": "tags/1.71"
+                "reference": "tags/1.72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-postviews.1.71.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-postviews.1.72.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -540,15 +540,15 @@
     "packages-dev": [
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.8.0"
+                "reference": "tags/2.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.8.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.8.1.zip",
                 "reference": null,
                 "shasum": null
             },
