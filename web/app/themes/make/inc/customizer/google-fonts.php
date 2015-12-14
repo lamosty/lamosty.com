@@ -7,7 +7,7 @@ if ( ! function_exists( 'ttfmake_get_google_fonts' ) ) :
 /**
  * Return an array of all available Google Fonts.
  *
- * Updated: 2015-06-20T03:41:09+00:00
+ * Updated: 2015-11-25T00:45:10+00:00
  *
  * @since  1.0.0.
  *
@@ -410,6 +410,7 @@ function ttfmake_get_google_fonts() {
 			),
 			'subsets' => array(
 				'latin',
+				'latin-ext',
 			),
 			'category' => 'handwriting',
 		),
@@ -1454,6 +1455,26 @@ function ttfmake_get_google_fonts() {
 			),
 			'category' => 'display',
 		),
+		'Catamaran' => array(
+			'label' => 'Catamaran',
+			'variants' => array(
+				'100',
+				'200',
+				'300',
+				'500',
+				'600',
+				'700',
+				'800',
+				'900',
+				'regular',
+			),
+			'subsets' => array(
+				'latin',
+				'latin-ext',
+				'tamil',
+			),
+			'category' => 'sans-serif',
+		),
 		'Caudex' => array(
 			'label' => 'Caudex',
 			'variants' => array(
@@ -1469,6 +1490,29 @@ function ttfmake_get_google_fonts() {
 				'latin-ext',
 			),
 			'category' => 'serif',
+		),
+		'Caveat' => array(
+			'label' => 'Caveat',
+			'variants' => array(
+				'700',
+				'regular',
+			),
+			'subsets' => array(
+				'latin',
+				'latin-ext',
+			),
+			'category' => 'handwriting',
+		),
+		'Caveat Brush' => array(
+			'label' => 'Caveat Brush',
+			'variants' => array(
+				'regular',
+			),
+			'subsets' => array(
+				'latin',
+				'latin-ext',
+			),
+			'category' => 'handwriting',
 		),
 		'Cedarville Cursive' => array(
 			'label' => 'Cedarville Cursive',
@@ -1612,6 +1656,19 @@ function ttfmake_get_google_fonts() {
 			),
 			'category' => 'sans-serif',
 		),
+		'Chonburi' => array(
+			'label' => 'Chonburi',
+			'variants' => array(
+				'regular',
+			),
+			'subsets' => array(
+				'latin',
+				'latin-ext',
+				'thai',
+				'vietnamese',
+			),
+			'category' => 'display',
+		),
 		'Cinzel' => array(
 			'label' => 'Cinzel',
 			'variants' => array(
@@ -1655,6 +1712,7 @@ function ttfmake_get_google_fonts() {
 			),
 			'subsets' => array(
 				'latin',
+				'latin-ext',
 			),
 			'category' => 'display',
 		),
@@ -1665,6 +1723,7 @@ function ttfmake_get_google_fonts() {
 			),
 			'subsets' => array(
 				'latin',
+				'latin-ext',
 			),
 			'category' => 'sans-serif',
 		),
@@ -1798,6 +1857,7 @@ function ttfmake_get_google_fonts() {
 			),
 			'subsets' => array(
 				'latin',
+				'latin-ext',
 			),
 			'category' => 'display',
 		),
@@ -3341,6 +3401,38 @@ function ttfmake_get_google_fonts() {
 			),
 			'category' => 'sans-serif',
 		),
+		'Hind Siliguri' => array(
+			'label' => 'Hind Siliguri',
+			'variants' => array(
+				'300',
+				'500',
+				'600',
+				'700',
+				'regular',
+			),
+			'subsets' => array(
+				'bengali',
+				'latin',
+				'latin-ext',
+			),
+			'category' => 'sans-serif',
+		),
+		'Hind Vadodara' => array(
+			'label' => 'Hind Vadodara',
+			'variants' => array(
+				'300',
+				'500',
+				'600',
+				'700',
+				'regular',
+			),
+			'subsets' => array(
+				'gujarati',
+				'latin',
+				'latin-ext',
+			),
+			'category' => 'sans-serif',
+		),
 		'Holtwood One SC' => array(
 			'label' => 'Holtwood One SC',
 			'variants' => array(
@@ -3618,6 +3710,19 @@ function ttfmake_get_google_fonts() {
 			),
 			'category' => 'handwriting',
 		),
+		'Itim' => array(
+			'label' => 'Itim',
+			'variants' => array(
+				'regular',
+			),
+			'subsets' => array(
+				'latin',
+				'latin-ext',
+				'thai',
+				'vietnamese',
+			),
+			'category' => 'handwriting',
+		),
 		'Jacques Francois' => array(
 			'label' => 'Jacques Francois',
 			'variants' => array(
@@ -3743,6 +3848,8 @@ function ttfmake_get_google_fonts() {
 			),
 			'subsets' => array(
 				'latin',
+				'latin-ext',
+				'vietnamese',
 			),
 			'category' => 'serif',
 		),
@@ -4143,6 +4250,7 @@ function ttfmake_get_google_fonts() {
 			),
 			'subsets' => array(
 				'latin',
+				'latin-ext',
 			),
 			'category' => 'display',
 		),
@@ -6851,12 +6959,34 @@ function ttfmake_get_google_fonts() {
 			),
 			'category' => 'serif',
 		),
+		'Rubik' => array(
+			'label' => 'Rubik',
+			'variants' => array(
+				'300',
+				'300italic',
+				'500',
+				'500italic',
+				'700',
+				'700italic',
+				'900',
+				'900italic',
+				'italic',
+				'regular',
+			),
+			'subsets' => array(
+				'cyrillic',
+				'latin',
+				'latin-ext',
+			),
+			'category' => 'sans-serif',
+		),
 		'Rubik Mono One' => array(
 			'label' => 'Rubik Mono One',
 			'variants' => array(
 				'regular',
 			),
 			'subsets' => array(
+				'cyrillic',
 				'latin',
 				'latin-ext',
 			),
@@ -6868,6 +6998,7 @@ function ttfmake_get_google_fonts() {
 				'regular',
 			),
 			'subsets' => array(
+				'cyrillic',
 				'latin',
 				'latin-ext',
 			),
@@ -7122,6 +7253,7 @@ function ttfmake_get_google_fonts() {
 		'Scheherazade' => array(
 			'label' => 'Scheherazade',
 			'variants' => array(
+				'700',
 				'regular',
 			),
 			'subsets' => array(
@@ -8407,6 +8539,25 @@ function ttfmake_get_google_fonts() {
 			),
 			'subsets' => array(
 				'latin',
+			),
+			'category' => 'sans-serif',
+		),
+		'Work Sans' => array(
+			'label' => 'Work Sans',
+			'variants' => array(
+				'100',
+				'200',
+				'300',
+				'500',
+				'600',
+				'700',
+				'800',
+				'900',
+				'regular',
+			),
+			'subsets' => array(
+				'latin',
+				'latin-ext',
 			),
 			'category' => 'sans-serif',
 		),

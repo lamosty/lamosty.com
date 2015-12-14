@@ -26,7 +26,7 @@ $header_bar_menu = wp_nav_menu( array(
 	if ( ! empty( $header_text ) || 1 === $show_search || ( ! empty ( $social_links ) && 1 === $show_social ) || ! empty( $header_bar_menu ) ) : ?>
 	<div class="header-bar<?php echo esc_attr( $subheader_class ); ?>">
 		<div class="container">
-			<a class="skip-link screen-reader-text" href="#site-content"><?php _e( 'Skip to content', 'make' ); ?></a>
+			<a class="skip-link screen-reader-text" href="#site-content"><?php esc_html_e( 'Skip to content', 'make' ); ?></a>
 			<?php // Search form
 			if ( 1 === $show_search ) :
 				get_search_form();
@@ -46,22 +46,21 @@ $header_bar_menu = wp_nav_menu( array(
 	<div class="site-header-main">
 		<div class="container">
 			<div class="site-branding">
-				<?php if ( ttfmake_get_logo()->has_logo() ) : ?>
+				<?php // Logo
+				if ( ttfmake_get_logo()->has_logo() ) : ?>
 				<div class="custom-logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 				</div>
 				<?php endif; ?>
-				<h1 class="site-title">
-					<?php // Site title
-					if ( 1 !== $hide_site_title && get_bloginfo( 'name' ) ) : ?>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<?php bloginfo( 'name' ); ?>
-					</a>
-					<?php endif; ?>
+				<?php // Site title
+				if ( get_bloginfo( 'name' ) ) : ?>
+				<h1 class="site-title<?php if ( 1 === $hide_site_title ) echo ' screen-reader-text'; ?>">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</h1>
+				<?php endif; ?>
 				<?php // Tagline
-				if ( 1 !== $hide_tagline && get_bloginfo( 'description' ) ) : ?>
-				<span class="site-description">
+				if ( get_bloginfo( 'description' ) ) : ?>
+				<span class="site-description<?php if ( 1 === $hide_tagline ) echo ' screen-reader-text'; ?>">
 					<?php bloginfo( 'description' ); ?>
 				</span>
 				<?php endif; ?>
@@ -69,7 +68,7 @@ $header_bar_menu = wp_nav_menu( array(
 
 			<nav id="site-navigation" class="site-navigation" role="navigation">
 				<span class="menu-toggle"><?php echo esc_html( $menu_label ); ?></span>
-				<a class="skip-link screen-reader-text" href="#site-content"><?php _e( 'Skip to content', 'make' ); ?></a>
+				<a class="skip-link screen-reader-text" href="#site-content"><?php esc_html_e( 'Skip to content', 'make' ); ?></a>
 				<?php
 				wp_nav_menu( array(
 					'theme_location' => 'primary'

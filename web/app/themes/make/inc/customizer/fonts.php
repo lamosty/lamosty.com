@@ -44,15 +44,15 @@ function ttfmake_get_standard_fonts() {
 	 */
 	return apply_filters( 'make_get_standard_fonts', array(
 		'serif' => array(
-			'label' => _x( 'Serif', 'font style', 'make' ),
+			'label' => __( 'Serif', 'make' ),
 			'stack' => 'Georgia,Times,"Times New Roman",serif'
 		),
 		'sans-serif' => array(
-			'label' => _x( 'Sans Serif', 'font style', 'make' ),
+			'label' => __( 'Sans Serif', 'make' ),
 			'stack' => '"Helvetica Neue",Helvetica,Arial,sans-serif'
 		),
 		'monospace' => array(
-			'label' => _x( 'Monospaced', 'font style', 'make' ),
+			'label' => __( 'Monospaced', 'make' ),
 			'stack' => 'Monaco,"Lucida Sans Typewriter","Lucida Typewriter","Courier New",Courier,monospace'
 		)
 	) );
@@ -218,16 +218,20 @@ function ttfmake_get_google_font_subsets() {
 	return apply_filters( 'make_get_google_font_subsets', array(
 		'all'          => __( 'All', 'make' ),
 		'arabic'       => __( 'Arabic', 'make' ),
+		'bengali'      => __( 'Bengali', 'make' ),
 		'cyrillic'     => __( 'Cyrillic', 'make' ),
 		'cyrillic-ext' => __( 'Cyrillic Extended', 'make' ),
 		'devanagari'   => __( 'Devanagari', 'make' ),
 		'greek'        => __( 'Greek', 'make' ),
 		'greek-ext'    => __( 'Greek Extended', 'make' ),
+		'gujarati'     => __( 'Gujarati', 'make' ),
 		'hebrew'       => __( 'Hebrew', 'make' ),
 		'khmer'        => __( 'Khmer', 'make' ),
 		'latin'        => __( 'Latin', 'make' ),
 		'latin-ext'    => __( 'Latin Extended', 'make' ),
+		'tamil'        => __( 'Tamil', 'make' ),
 		'telugu'       => __( 'Telugu', 'make' ),
+		'thai'         => __( 'Thai', 'make' ),
 		'vietnamese'   => __( 'Vietnamese', 'make' ),
 	) );
 }
