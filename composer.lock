@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d842a33b32ac2b76027b68fa1a4d06e1",
-    "content-hash": "074e253125875f0e98d84557eaaded74",
+    "hash": "92f2a878d618396cdfc03cd5a89eba75",
+    "content-hash": "772a13521f504d5779ec2a8706f7cb32",
     "packages": [
         {
             "name": "composer/installers",
@@ -458,15 +458,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "2.3.18",
+            "version": "3.1.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/2.3.18"
+                "reference": "tags/3.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.2.3.18.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.4.zip",
                 "reference": null,
                 "shasum": null
             },
