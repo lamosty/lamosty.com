@@ -148,16 +148,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.4",
+            "version": "4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b"
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-12-08 23:46:14"
+            "time": "2016-02-02 17:16:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -378,7 +378,7 @@
         },
         {
             "name": "wpackagist-plugin/crayon-syntax-highlighter",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/crayon-syntax-highlighter/",
@@ -418,15 +418,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.9.1.1",
+            "version": "4.9.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.9.1.1"
+                "reference": "tags/4.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -438,15 +438,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.8.1",
+            "version": "3.9.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.8.1"
+                "reference": "tags/3.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.3.8.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.9.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -540,15 +540,15 @@
     "packages-dev": [
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.8.1",
+            "version": "2.9.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.8.1"
+                "reference": "tags/2.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.8.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.9.0.zip",
                 "reference": null,
                 "shasum": null
             },
