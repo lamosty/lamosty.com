@@ -381,7 +381,7 @@
             "version": "2.8.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/crayon-syntax-highlighter/",
+                "url": "https://plugins.svn.wordpress.org/crayon-syntax-highlighter/",
                 "reference": "trunk"
             },
             "dist": {
@@ -401,7 +401,7 @@
             "version": "2.84",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
+                "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
                 "reference": "trunk"
             },
             "dist": {
@@ -421,7 +421,7 @@
             "version": "4.9.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
                 "reference": "tags/4.9.2"
             },
             "dist": {
@@ -438,15 +438,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.9.2",
+            "version": "3.9.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.9.2"
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/3.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.3.9.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.9.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -458,15 +458,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "3.1.4",
+            "version": "3.1.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/3.1.4"
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/3.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -478,15 +478,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.1",
+            "version": "3.1.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.1"
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/3.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -501,7 +501,7 @@
             "version": "2.89.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-pagenavi/",
+                "url": "https://plugins.svn.wordpress.org/wp-pagenavi/",
                 "reference": "tags/2.89.1"
             },
             "dist": {
@@ -521,7 +521,7 @@
             "version": "1.72",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-postviews/",
+                "url": "https://plugins.svn.wordpress.org/wp-postviews/",
                 "reference": "tags/1.72"
             },
             "dist": {
@@ -540,15 +540,15 @@
     "packages-dev": [
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.9.0",
+            "version": "2.10.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.9.0"
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/2.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.9.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.10.0.zip",
                 "reference": null,
                 "shasum": null
             },
